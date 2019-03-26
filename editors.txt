@@ -1,0 +1,30 @@
+Working with Vi Editor:---
+---------------------------------------------
+1.Vi is the standard editor that is available on Unix systems.
+
+Modes of Unix Vi Editor:
+--------------------------------------------------
+
+1.The vi editor has three modes of operation viz. the command mode, the insert mode, and the ex-command mode.
+
+#1) Command mode:
+------------------------------
+1.In this mode, all the keys work as commands. These keys are used for inserting, appending, deleting, opening new lines, moving the cursor over the paragraphs and 2.sentences, etc. In this mode, the keys are not displayed but each key performs an operation.
+   By default the vi editor is in command mode, hence we cannot type text in command mode. In order to write programs or text in vi editor, we need to switch to the insert    mode which can be done by pressing the escape button.
+#2) Insert mode:
+-----------------------
+In this mode, we can insert, append, edit or replace texts. We can switch from the command mode to Insert mode by pressing the escape button and then press I or A to enter into insert mode.
+
+#3) Ex command mode:
+------------------------------
+This mode is used for entering commands at the bottom line of the vi editor called as a command line. To switch to Ex command mode press escape key then type: (colon). In order to save the contents and quit from the vi editor press wq after the : (colon). i.e :wq.
+
+Vi editor saving  and quitting commands:
+
+:w -Save the contents of the file.
+
+:q – Quit from vi editor.
+
+:q! -quit from vi editor by discarding any changes.
+
+:wq!-Save the file and quit from the vi editor/
